@@ -14,7 +14,7 @@ package com.hybris.api.generated;
 /**
  * Generated parameter dto.
  */
-@javax.annotation.Generated(value = "hybris", date = "Wed Feb 18 17:40:04 CET 2015")
+@javax.annotation.Generated(value = "hybris", date = "Wed Feb 18 22:15:41 CET 2015")
 public class AppAwareParameters
 {
 	@javax.validation.constraints.Pattern(regexp="[a-zA-Z0-9_-]*$")

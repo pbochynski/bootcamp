@@ -14,7 +14,7 @@ package com.hybris.api.generated;
 /**
  * Generated parameter dto.
  */
-@javax.annotation.Generated(value = "hybris", date = "Wed Feb 18 17:40:04 CET 2015")
+@javax.annotation.Generated(value = "hybris", date = "Wed Feb 18 22:15:42 CET 2015")
 public class QueryableParameters
 {
 	@javax.ws.rs.QueryParam("q")

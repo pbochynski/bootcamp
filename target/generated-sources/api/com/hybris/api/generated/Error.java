@@ -16,7 +16,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 /**
  * Generated dto.
  */
-@javax.annotation.Generated(value = "hybris", date = "Wed Feb 18 17:40:04 CET 2015")
+@javax.annotation.Generated(value = "hybris", date = "Wed Feb 18 22:15:41 CET 2015")
 @XmlRootElement
 public class Error
 {

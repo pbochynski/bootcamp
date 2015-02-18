@@ -38,7 +38,7 @@ public class DefaultAccountsResource implements com.hybris.api.generated.Account
 	@Override
 	public Response get(final AppAwareParameters appAware, final PagedParameters paged, final QueryableParameters queryable)
 	{
-        Response account = DocumentClient.getAll(appAware.getHybrisTenant(), appAware.getHybrisApp(), "account");
+        Response account = DocumentClient.getAll(appAware.getHybrisTenant(), "2vGtARVpAL4BiTTZRufpnmIaFaE1EYwC", "account");
         return account; /*Response.ok()
 			.entity(new java.util.ArrayList<>()).build();*/
 	}
