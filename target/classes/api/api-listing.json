@@ -1,0 +1,14 @@
+{
+    "name": "hybris Service",
+    "references":[
+        {
+            "namespace": "api",
+            "description": "API definition of betaaccounts",
+            "path": "/",
+            "type": "raml",
+            "fileName": "betaaccounts.raml",
+            "packageName": "com.hybris.api.generated",
+            "async": false
+        }
+    ]
+}

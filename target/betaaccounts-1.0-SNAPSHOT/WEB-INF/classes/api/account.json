@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title":"account",
+  "type":"object",
+  "properties": {
+    "crowd": {
+      "type": "string",
+      "format": "email"
+    },
+    "github": {
+      "type": "string",
+      "format": "email"
+    },
+    "groupname": {
+      "type": "string",
+      "description": "the crowd user group name",
+      "default": "cec-sap"
+    },
+    "deploys": {
+      "type": "boolean",
+      "description": "Indicates whether a CF account is needed or not",
+      "default": "false"
+    },
+    "modifiedAt": {
+      "$ref" : "https://api.yaas.io/patterns/v1/schema-createdAt.json"
+    },
+    "modifiedBy":
+    {
+      "type": "string",
+      "format": "uri",
+      "description": "The YaaS account of the person creating or processing this account"
+    },
+    "status":
+    {
+      "enum": [ "contacted", "added", "blocked" ],
+      "description": "'contatced' means, the first mail asking who that is, has been sent out. 'blocked' means, we do not want him on YaaS."
+    }
+  },
+  "required":["crowd"]
+}
